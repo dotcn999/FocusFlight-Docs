@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FocusFlight 专注飞机 - iOS 原生沉浸式专注应用</title>
+    <style>
+        :root {
+            --bg-color: #0A122B;
+            --card-bg: #142447;
+            --accent-teal: #00F5D4;
+            --gold: #F7B801;
+            --text-main: #FAFAFC;
+            --text-sub: #A0AEC0;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .hero {
+            padding: 80px 20px 40px;
+        }
+        .hero h1 {
+            font-size: 40px;
+            color: var(--accent-teal);
+            margin-bottom: 10px;
+            font-weight: 800;
+        }
+        .hero p {
+            font-size: 18px;
+            color: var(--text-sub);
+            max-width: 600px;
+            margin: 0 auto 30px;
+        }
+        .badge {
+            display: inline-block;
+            background: var(--gold);
+            color: var(--bg-color);
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+        .nav-links {
+            margin-top: 40px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .nav-links a {
+            color: var(--accent-teal);
+            text-decoration: none;
+            font-weight: 600;
+            padding: 10px 20px;
+            border: 1px solid var(--accent-teal);
+            border-radius: 25px;
+            transition: all 0.3s ease;
+        }
+        .nav-links a:hover {
+            background: var(--accent-teal);
+            color: var(--bg-color);
+        }
+        .footer {
+            margin-top: 80px;
+            padding: 20px;
+            font-size: 13px;
+            color: var(--text-sub);
+            border-top: 1px solid rgba(255,255,255,0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <div class="badge">✈️ iOS 原生 App Store 精选级专注工具</div>
+        <h1>FocusFlight 专注飞机</h1>
+        <p>将枯燥的专注计时转化为这场充满仪式感的高空飞行旅程。基于 Swift / SwiftUI 原生精心打造。</p>
+
+        <div class="nav-links">
+            <a href="terms.html">服务条款 (Terms)</a>
+            <a href="privacy.html">隐私政策 (Privacy)</a>
+            <a href="https://github.com/dotcn999/FocusFlight" target="_blank">GitHub 开源仓库</a>
+        </div>
+    </div>
+
+    <div class="footer">
+        &copy; 2026 FocusFlight. All Rights Reserved. Hosted on GitHub Pages.
+    </div>
+</body>
+</html>
